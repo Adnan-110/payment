@@ -6,6 +6,6 @@
 // Simply declare environment variable like below
 env.COMPONENT="Payment"
 env.SONAR_URL="172.31.39.131"
-maven()
+python()
 
 // To see further use check maven and helloWorld file in shared library
