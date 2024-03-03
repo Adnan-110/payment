@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: 093842890430.dkr.ecr.us-east-1.amazonaws.com/payment:v01
+        image: 093842890430.dkr.ecr.us-east-1.amazonaws.com/payment:{{APP_VERSION}}
         ports:
         - containerPort: 8080
         envFrom:  
